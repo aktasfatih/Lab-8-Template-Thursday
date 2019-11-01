@@ -42,6 +42,13 @@ class CityListTest {
     }
 
     @Test
+    void testClean(){
+        CityList cityList = mockCityList();
+        cityList.clean();
+        assertEquals(0,cityList.countCities());
+    }
+
+    @Test
     void testHasCity() {
         CityList cityList = mockCityList();
 

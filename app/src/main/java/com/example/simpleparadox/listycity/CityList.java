@@ -79,6 +79,6 @@ public class CityList {
     }
 
     public void clean(){
-//        this.cities = new ArrayList<>();
+        this.cities = new ArrayList<>();
     }
 }
